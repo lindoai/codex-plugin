@@ -1,0 +1,35 @@
+{
+  "name": "lindo-ai",
+  "version": "1.0.1",
+  "description": "Create websites, pages, and blog posts with AI. Manage clients, credits, and domains — all through conversation.",
+  "author": {
+    "name": "Lindo AI",
+    "email": "hello@lindo.ai",
+    "url": "https://lindo.ai"
+  },
+  "homepage": "https://lindo.ai",
+  "repository": "https://github.com/lindoai/codex-plugin",
+  "license": "MIT",
+  "keywords": ["website", "ai", "builder", "agency", "automation", "blog", "pages", "clients"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Lindo AI",
+    "shortDescription": "AI website builder for agencies",
+    "longDescription": "Create websites, pages, and blog posts with AI. Manage clients, assign websites, generate magic login links, and allocate credits. Built for agencies managing multiple client websites.",
+    "developerName": "Lindo AI",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://lindo.ai",
+    "privacyPolicyURL": "https://lindo.ai/privacy",
+    "termsOfServiceURL": "https://lindo.ai/terms",
+    "defaultPrompt": [
+      "Create a modern website for a coffee shop called Bean & Brew",
+      "Show me all my websites and their status",
+      "Write a blog post about web design trends for my client's site"
+    ],
+    "brandColor": "#10B981",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}
